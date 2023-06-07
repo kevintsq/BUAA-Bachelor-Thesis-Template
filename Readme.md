@@ -1,33 +1,31 @@
-# BUAA-Thesis-BWE
-[bold]北航本科生毕业设计论文（工科类）Word模板
-
+# BUAA-Bachelor-Thesis-Template
+北航本科生毕业设计论文（工科类）Word 模板
 
 ## 项目说明
-这是北航本科生毕业设计论文的Word模板，旨在为提供具有参考性的格式化模板，若有问题欢迎指出和讨论。
+这是北航本科生毕业设计论文的 Word 模板，旨在为提供具有参考性的格式化模板，若有问题欢迎指出和讨论。
 
-大部分毕业设计要求格式均以通过**样式**功能实现，主要格式均在样式名称中说明。
+## 排版经验
+[1] 样式。合理使用 Word**样式**，设置正确的大纲级别，有助于统一格式和交叉引用。
 
-## 写作经验
-[1] 合理使用Word**样式**功能。Word样式功能提供了强大的格式编辑能力，对于同一类文本使用相同的样式，能极大减少排版问题，提升排版效率。
+[2] 公式。可先插入 OfficeMath 公式，定稿前转为 MathType 公式并统一编号。转为 MathType 公式后，千万不要使用 WPS 打开文档，因为即使是打开，WPS 也会更改文档，导致一些公式出现拉伸、字号变动或上下浮动的情况。
 
-[2] 公式。Word中可插入LaTex格式的公式，熟悉LaTex公式编辑可提升编辑效率。
+[3] 插图。能使用矢量图的一定要用矢量图。至于选用 emf、wmf、svg 中的哪种格式，需视导入图片和导出 PDF 的效果而定。如果只能插入位图，建议分辨率不低于 300 DPI。Word 自带的 PDF 导出的功能可能会使 PDF 中的位图模糊不清，可以使用 Acrobat 导出 PDF 的插件。但该插件不会更新目录和交叉引用，且对矢量图支持不好。可以先用 Word 自带的 PDF 导出功能，再用 Acrobat 导出 PDF 的插件。若导出有误，再手动在 Acrobat 中替换页面。
 
-[3] 参考文献。在编写正文时，按照顺序同步地整理参考文献题目，可以在后期的参考文献编辑中提供极大的便利。合理使用学术引擎的引用功能，能显著减少格式编辑所需时间。Word在编辑栏中提供了**交叉引用**的功能，建议使用。
+[4] 题注、参考文献与交叉引用。**插入题注**与**交叉引用**结合使用可以免去手动更改题注编号的麻烦。编写正文时，按照顺序同步整理参考文献，配合**交叉引用**功能也可以免去手动更改参考文献编号的麻烦。此外，还可以合理使用学术引擎的引用功能，能显著减少格式编辑所需时间。
 
-        大多数学术引擎都提供了GB/T 7714格式的引用文本。例如谷歌学术在多数搜索结果下方提供引号标记，点击即可获得引用文本。
-        另一部分引擎提供了bibtex格式文本，若熟悉LaTex，可使用其模板进行编译，得到引用文本。事实上，LaTex提供了一种功能强大的写作方法，使用预设模板可获得方便的编辑体验。LaTex的本地配置过程较为麻烦，可使用Overleaf等在线平台进行编辑。
+- 在 [Cite This for Me](https://www.citethisforme.com/) 网站可以通过文献的 DOI 号找到对应文献的信息，生成符合 GB/T 7714-2015 标准的引用文本。
+- 若熟悉 LaTeX，也可以将从学术引擎导出的 bibtex 编译为引用文本。LaTeX 提供了一种标准化的排版方法，使用预设模板可获得方便的编辑体验。若不想在本地配置 LaTeX，也可使用 Overleaf 等在线平台。
     
 [4] 部分学术引擎参考：
 - 外文参考文献引用最佳学术引擎：[Google Scholar](https://scholar.google.com)
 - 中文参考文献引用最佳搜索引擎：[中国知网](https://cnki.net)
 - 备选学术引擎（尽少使用）：
   1. [SemanticScholar](https://www.semanticscholar.org/)，所引文献题目全大写；
-  2. [DBLP](https://dblp.uni-trier.de/)，不提供直接的引用文本，提供bibtex；
-  3. [arXiv](https://arxiv.org/)，引用链接不明确，提供bibtex；
-  4. [Bing学术](https://cn.bing.com/academic/)，会议文献引用格式有错误；
+  2. [DBLP](https://dblp.uni-trier.de/)，不提供直接的引用文本，提供 bibtex；
+  3. [arXiv](https://arxiv.org/)，引用链接不明确，提供 bibtex；
+  4. [Bing 学术](https://cn.bing.com/academic/)，会议文献引用格式有错误。
 
 ## 帮助性链接
-- [BHOSC/BUAAthesis](https://github.com/BHOSC/BUAAthesis)，本硕博LaTex模板
-- [CheckBoxStudio/BUAAThesis](https://github.com/CheckBoxStudio/BUAAThesis)，北航研究生学位论文模板（Word+LaTeX)
-- [ZhuGongpu/BUAA-Graduate-Dissertation-Template
-](https://github.com/ZhuGongpu/BUAA-Graduate-Dissertation-Template)，北航研究生毕业论文Word模版
+- [BHOSC/BUAAthesis](https://github.com/BHOSC/BUAAthesis)，本硕博 LaTeX 模板
+- [CheckBoxStudio/BUAAThesis](https://github.com/CheckBoxStudio/BUAAThesis)，北航研究生学位论文模板（Word + LaTeX)
+- [ZhuGongpu/BUAA-Graduate-Dissertation-Template](https://github.com/ZhuGongpu/BUAA-Graduate-Dissertation-Template)，北航研究生毕业论文 Word 模版
